@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*****************************************************/
+  .container {
+    position: relative;
+  }
+  
+  /**********HIDE IMAGES*******************************************/
+  .mySlides {
+    width: 500px;
+    height: 800px;
+    display: none;
+  }
+
+  .images{
+    width: 100%;
+  }
+  
+  /**********POINTER*******************************************/
+  .cursor {
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /*********NEXT & PREVIOUS********************************************/
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /***************RIGHT BUTTON**************************************/
+  .next {
+    left: 457px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /*************BUTTON TRANSPARENCY****************************************/
+  .prev:hover,
+  .next:hover {
+    background-color: gray;
+  }
+  
+  /**************(1/1)***************************************/
+  .numbertext {
+    color: red;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /****************MONTHS*************************************/
+  .column {
+    float: left;
+    width: 16.66%;
+  }
