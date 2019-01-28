@@ -7,6 +7,17 @@ body {
 .header {
   text-align: center; }
 
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px; }
+
+.parragraph {
+  font-size: 13px; }
+
+.rowTitles {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman'; }
+
 /*****************************************************/
 .container {
   position: relative;
@@ -23,6 +34,13 @@ body {
   top: 100px;
   color: white;
   left: 20px; }
+
+.overTitle {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman'; }
+
+.overParragrapg {
+  font-size: 20px; }
 
 /**********HIDE IMAGES*******************************************/
 .mySlides {
