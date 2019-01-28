@@ -5,16 +5,16 @@ function arrowSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(x) {
+  showSlides(slideIndex = x);
 }
 
-function showSlides(n) {
+function showSlides(x) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let months = document.getElementsByClassName("demo");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (x > slides.length) {slideIndex = 1}
+  if (x < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
